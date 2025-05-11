@@ -73,6 +73,10 @@ body, html {
     font-size: x-large;
 }
 
+.nav_container a:hover {
+    color: #D4AF37; /* Optional: Add hover effect for links */
+}
+
 
 
 .footer_content {
@@ -107,6 +111,7 @@ body, html {
     width: 100%; 
     box-sizing: border-box; 
     gap: 10px;
+    max-width: 100%;
 }
 
 .main_content {
