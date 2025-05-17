@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    text-align: center;
+    position: relative;
+}
+
+#menu-btn {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: #333;
+    border-radius: 8px;
+    overflow: hidden;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+nav li {
+    border-bottom: 1px solid #444;
+}
+
+nav li:last-child {
+    border-bottom: none;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    transition: background 0.2s, color 0.2s;
+}
+
+nav a:hover {
+    background: #D4AF37;
+    color: #222;
+}
+
+nav.hidden {
+    display: none;
+}
+
+/* Main content */
+main {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr; /* 1 column on small screens */
+    gap: 1.5rem;
+    justify-items: center;
+}
+
+main h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+figure {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    overflow: hidden;
+    max-width: 320px;
+    width: 100%;
+    margin: 0;
+}
+figure img {
+    width: 100%;
+    display: block;
+}
+
+figcaption {
+    padding: 0.5rem 1rem;
+    background: #eee;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.footer_content {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* temples.css */
+#menu-btn {
+    display: block;
+}
+@media (min-width: 700px) {
+    #menu-btn {
+        display: none;
+    }
+    #nav-menu {
+        display: block !important;
+    }
+}
+.hidden {
+    display: none;
+}
+
+@media (min-width: 900px) {
+    main {
+        grid-template-columns: repeat(4, 1fr); /* 4 columns */
+        gap: 2rem;
+        max-width: 1100px;
+        margin: 2rem auto;
+        justify-items: center;
+    }
+    figure {
+        max-width: 300px; /* Make figures smaller to fit 4 in a row */
+    }
+}
