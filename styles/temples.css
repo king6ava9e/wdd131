@@ -142,3 +142,19 @@ figcaption {
         max-width: 300px; /* Make figures smaller to fit 4 in a row */
     }
 }
+@media (max-width: 699px) {
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;           /* Allow nav items to wrap to the next line */
+        align-items: stretch;
+        justify-content: flex-end;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        background: #333;
+        border-radius: 8px;
+        overflow: auto;
+        gap: 0.5rem;
+    }
+}
