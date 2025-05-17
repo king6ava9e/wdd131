@@ -37,8 +37,8 @@ nav ul {
     list-style: none;
     background: #333;
     border-radius: 8px;
-    overflow: hidden;
-    gap: 0.7rem;
+    overflow: scroll;
+    gap: 0.5rem;
     justify-content: flex-end;
 }
 
