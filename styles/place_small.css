@@ -1,0 +1,112 @@
+@media (max-width: 700px) {
+  main {
+    display: flex;
+    flex-direction: column;   /* Stack children vertically */
+    gap: 1rem;
+    padding: 0.5rem;
+    max-width: 100%;
+  }
+
+  .hero,
+  .data_info,
+  .weather_info {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 1rem 0;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    display: block;           /* Remove flex from info boxes for normal flow */
+    position: static !important;
+  }
+
+  .h1writings,
+  .data_writings {
+    margin-left: 0;
+    padding-right: 2rem;
+    font-size: 1.1rem;
+  }
+
+  /* 1. Extra Small Devices (phones, less than 480px) */
+@media (max-width: 480px) {
+  .hero img,
+  .data_info,
+  .weather_info {
+    position: static;
+    display: block;
+    margin: 1rem auto;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* 2. Small Devices (larger phones, up to 600px) */
+@media (max-width: 600px) {
+  .hero img,
+  .data_info,
+  .weather_info {
+    position: static;
+    display: block;
+    margin: 1rem auto;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* 3. Medium Devices (tablets, portrait, up to 768px) */
+@media (max-width: 768px) {
+  .hero img,
+  .data_info,
+  .weather_info {
+    position: static;
+    display: block;
+    margin: 1rem auto;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* 4. Large Devices (tablets landscape / small laptops, up to 992px) */
+@media (max-width: 992px) {
+  .hero img,
+  .data_info,
+  .weather_info {
+    position: static;
+    display: block;
+    margin: 1rem auto;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* 5. Extra Large Devices (desktops, up to 1200px) */
+@media (max-width: 1200px) {
+  .hero img {
+    margin-left: 5rem;
+  }
+  .data_info,
+  .weather_info {
+    right: 5rem;
+    left: auto;
+  }
+}
+
+/* (Optional) Ultra-Wide Screens */
+@media (min-width: 1400px) {
+  .hero img {
+    margin-left: 10rem;
+  }
+}
+
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--project description -->
+    <meta name="description" content="PLACE ASSIGNMENT - Acheampong Kingsley">
+
+    <!--project author -->
+    <meta name="author" content="Acheampong Kingsley">  
+
+    <!--project keywords -->
+    <meta name="keywords" content="PLACE ASSIGNMENT, Acheampong Kingsley, Web Development, HTML, CSS, JavaScript">
+
+    <!--project fonts used -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!--project title -->
+    <title>PLACE ASSIGNMENT</title>
+
+    <!--project stylesheets -->
+    <link rel="stylesheet" href="styles/place_small.css">
+    <link rel="stylesheet" href="styles/place_wide.css">
+    <script src="scripts/place.js" defer></script> <!-- JavaScript file for interactivity -->
+</head>
+<body>
+    <header>
+        <h1>
+            LONDON -THE CAPITAL OF THE UNITED KINGDOM
+            <span class="emoji">🇬🇧</span>
+        </h1>
+
+    </header>
+
+    <main>
+
+        <div class="hero">
+            <picture>
+                <source media="(min-width:1000px)" srcset="images/london_downtown_large.webp">
+                <source media="(min-width:500px)" srcset="images/london_downtown_medium.webp">
+                <img src="images/london_downtown_small.webp" alt="London Downtown" class="hero_image">
+            </picture>
+
+        </div>
+        <div class="data_info">
+            <h1 class="data_writings">Data</h1>
+            <p>Area: <span id="area">1,572 km²</span></p>
+            <p>Population: <span id="population">9,541,000</span></p>
+            <p>Capital: <span id="capital">London</span></p>
+            <p>Country: <span id="country">United Kingdom</span></p>
+            <p>Currency: <span id="currency">British Pound Sterling</span></p>
+            <p>Language: <span id="language">English</span></p>
+            <p>Time Zone: <span id="timezone">GMT (UTC+0)</span></p>
+            <p>Calling Code: <span id="calling_code">+44</span></p>
+            <p>Internet Tld: <span id="internet_tld">.uk</span></p>
+        </div>
+
+        <div class="weather_info">
+            <h1 class="h1writings">Weather
+                
+            </h1>
+           <h2>Temperature: <span id="temperature">15°C</span></h2>
+           <h2>Condition: <span id="condition">Partly Cloudy</span></h2>
+           <h2>Wind: <span id="wind">5 km/h</span></h2>
+           <h2>Windchill: <span id="windchill">3°C</span></h2>
+        </div>
+    </main>
+
+     <footer class="footer_content">
+    <p>
+        ©️ <span id="currentyear"></span> 👑 Acheampong Kingsley 👑 Ghana
+    </p>
+    <br>
+    <p id="lastModified"></p>
+</footer>
+    
+</body>
+</html>
