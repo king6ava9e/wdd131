@@ -1,5 +1,6 @@
 :root {
-  --primary-bg: #dbe5f5;}
+  --primary-bg: #dbe5f5;
+ --heading-text: #222;  }
 
 body {
   background-color: var(--primary-bg);
@@ -35,7 +36,7 @@ header h1 {
 main {
     
     
-    max-width: auto;
+    
    
     padding: 1rem;
     position: relative;
@@ -75,10 +76,11 @@ main {
     display: inline-block;
     padding-right: 3rem;
     background-color: #f4f4f4;
+    font-family: merryweather, sans-serif;
     
     position: relative;
     margin-left: -2rem;
-    color: rgb(32, 24, 10);}
+    color: var(--heading-text);}
    
 .h1writings::after {
      background: url('../images/weather-icon.webp') center/contain no-repeat;
@@ -110,7 +112,7 @@ main {
 .data_info p {
     margin: 0.5rem 0;
     font-size: 1.2rem;
-    height: fit -content;
+  
 }
 
 .data_writings{
@@ -123,6 +125,6 @@ main {
     
     position: relative;
     margin-left: -2rem;
-    color: rgb(43, 31, 11);
+    color: var(--heading-text);
        
 }
