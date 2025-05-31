@@ -192,3 +192,5 @@ document.getElementById("old-link").addEventListener("click", e => { e.preventDe
 document.getElementById("new-link").addEventListener("click", e => { e.preventDefault(); filterNew(); });
 document.getElementById("large-link").addEventListener("click", e => { e.preventDefault(); filterLarge(); });
 document.getElementById("small-link").addEventListener("click", e => { e.preventDefault(); filterSmall(); });
+
+// making upfates
