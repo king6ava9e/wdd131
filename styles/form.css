@@ -1,0 +1,281 @@
+/* media query for my footer, and header and h1 */
+/* 1. Extra Small Devices (phones, less than 480px) */
+@media (max-width: 480px) {
+  header {
+    height: 2rem;
+    font-size: 0.5rem;
+  }
+  header h1 {
+    font-size: 0.5rem;
+    height: 2rem;
+  }
+  .footer_content {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+}
+
+/* 2. Small Devices (larger phones, up to 600px) */
+@media (max-width: 600px) {
+  header {
+    height: 5rem;
+    font-size: 0.5rem;
+  }
+  header h1 {
+    font-size: 0.5rem;
+  }
+  .footer_content {
+    font-size: 1.1rem;
+  }
+}
+
+/* 3. Medium Devices (tablets, portrait, up to 768px) */
+@media (max-width: 768px) {
+  header {
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+  .footer_content {
+    font-size: 1.2rem;
+  }
+}
+
+/* 4. Large Devices (tablets landscape / small laptops, up to 992px) */
+@media (max-width: 992px) {
+  header {
+    height: 8rem;
+    font-size: 2rem;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  .footer_content {
+    font-size: 1.3rem;
+  }
+}
+
+/* 5. Extra Large Devices (desktops, up to 1200px) */
+@media (max-width: 1200px) {
+  header {
+    height: 9rem;
+    font-size: 4.5rem;
+  }
+  header h1 {
+    font-size: 4.5rem;
+  }
+  .footer_content {
+    font-size: 1.4rem;
+  }
+}
+
+/* Ultra-Wide Screens */
+@media (min-width: 1400px) {
+  header {
+    max-width: auto;
+    margin: 0 auto;
+  }
+  .footer_content {
+    max-width: auto;
+    margin: 0 auto;
+  }
+}
+
+/* 1. Extra Small Devices (phones, less than 480px) */
+@media (max-width: 480px) {
+    main {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        height: auto;
+        font-size: 0.95rem;
+    }
+}
+
+/* 2. Small Devices (larger phones, up to 600px) */
+@media (max-width: 600px) {
+    main {
+        margin: 1rem;
+        padding: 1rem;
+        height: auto;
+        font-size: 1rem;
+    }
+}
+
+/* 3. Medium Devices (tablets, portrait, up to 768px) */
+@media (max-width: 768px) {
+    main {
+        margin: 1.5rem;
+        padding: 1.5rem;
+        height: auto;
+        font-size: 1.05rem;
+    }
+}
+
+/* 4. Large Devices (tablets landscape / small laptops, up to 992px) */
+@media (max-width: 992px) {
+    main {
+        margin: 2rem;
+        padding: 2rem;
+        height: auto;
+        font-size: 1.1rem;
+    }
+}
+
+/* 5. Extra Large Devices (desktops, up to 1200px) */
+@media (max-width: 1200px) {
+    main {
+        margin: 2.5rem;
+        padding: 2.5rem;
+        height: auto;
+        font-size: 1.15rem;
+    }
+}
+
+/*  Ultra-Wide Screens */
+@media (min-width: 1400px) {
+    main {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 3rem;
+        font-size: 1.2rem;
+    }
+}
+
+.forms {
+    gap: 1rem;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.forms form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+/* 1. Extra Small Devices (phones, less than 480px) */
+@media (max-width: 480px) {
+    .forms textarea,
+    .forms input[type="submit"] {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+/* 2. Small Devices (larger phones, up to 600px) */
+@media (max-width: 600px) {
+    .forms textarea,
+    .forms input[type="submit"] {
+        font-size: 1.05rem;
+        padding: 0.6rem 1.2rem;
+    }
+}
+
+/* 3. Medium Devices (tablets, portrait, up to 768px) */
+@media (max-width: 768px) {
+    .forms textarea,
+    .forms input[type="submit"] {
+        font-size: 1.1rem;
+        padding: 0.7rem 1.5rem;
+    }
+}
+
+/* 4. Large Devices (tablets landscape / small laptops, up to 992px) */
+@media (max-width: 992px) {
+    .forms textarea,
+    .forms input[type="submit"] {
+        font-size: 1.15rem;
+        padding: 0.75rem 1.8rem;
+    }
+}
+
+/* 5. Extra Large Devices (desktops, up to 1200px) */
+@media (max-width: 1200px) {
+    .forms textarea,
+    .forms input[type="submit"] {
+        font-size: 1.2rem;
+        padding: 0.75rem 2rem;
+    }
+}
+
+/*  Ultra-Wide Screens */
+@media (min-width: 1400px) {
+    .forms textarea,
+    .forms input[type="submit"] {
+        font-size: 1.3rem;
+        padding: 1rem 2.5rem;
+    }
+}
+
+/* 1. Extra Small Devices (phones, less than 480px) */
+@media (max-width: 480px) {
+    .forms input[type="submit"],
+    .forms input[type="date"],
+    .forms input[type="text"],
+    .forms select {
+        font-size: 1rem;
+        padding: 0.4rem 1rem;
+    }
+}
+
+/* 2. Small Devices (larger phones, up to 600px) */
+@media (max-width: 600px) {
+    .forms input[type="submit"],
+    .forms input[type="date"],
+    .forms input[type="text"],
+    .forms select {
+        font-size: 1.05rem;
+        padding: 0.5rem 1.2rem;
+    }
+}
+
+/* 3. Medium Devices (tablets, portrait, up to 768px) */
+@media (max-width: 768px) {
+    .forms input[type="submit"],
+    .forms input[type="date"],
+    .forms input[type="text"],
+    .forms select {
+        font-size: 1.1rem;
+        padding: 0.6rem 1.5rem;
+    }
+}
+
+/* 4. Large Devices (tablets landscape / small laptops, up to 992px) */
+@media (max-width: 992px) {
+    .forms input[type="submit"],
+    .forms input[type="date"],
+    .forms input[type="text"],
+    .forms select {
+        font-size: 1.15rem;
+        padding: 0.7rem 1.8rem;
+    }
+}
+
+/* 5. Extra Large Devices (desktops, up to 1200px) */
+@media (max-width: 1200px) {
+    .forms input[type="submit"],
+    .forms input[type="date"],
+    .forms input[type="text"],
+    .forms select {
+        font-size: 1.2rem;
+        padding: 0.75rem 2rem;
+    }
+}
+
+/*  Ultra-Wide Screens */
+@media (min-width: 1400px) {
+    .forms input[type="submit"],
+    .forms input[type="date"],
+    .forms input[type="text"],
+    .forms select {
+        font-size: 1.3rem;
+        padding: 1rem 2.5rem;
+    }
+}

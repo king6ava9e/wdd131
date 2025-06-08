@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--project description -->
+    <meta name="description" content="FORM REVIEW ASSIGNMENT - Acheampong Kingsley">
+
+    <!--project author -->
+    <meta name="author" content="Acheampong Kingsley">  
+
+    <!--project keywords -->
+    <meta name="keywords" content="form review, web development, HTML forms, CSS, JavaScript, Acheampong Kingsley, user input, form validation, assignment, BYU Idaho, dynamic web fundamentals, web forms, frontend development, student project">
+
+    <!--project fonts used -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!--project stylesheets -->
+    <link rel="stylesheet" href="styles/form-large.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script> <!-- JavaScript file for interactivity -->
+
+    <title>Review Form Page</title>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <div class="forms">
+            <form action="review.html" method="get">
+                <!--Product name-->
+                <label for="Product">Product Name</label><br>
+                <select name="Product" id="Product" required>
+                    <option value="" disabled>Select a Product....</option>
+                </select>
+                <br>
+
+                <!--ratings-->
+                <label for="rating">Overall Rating:</label><br />
+                <div class="stars">
+                    <input type="radio" id="star5" name="rating" value="5" required />
+                    <label for="star5" data-value="5">☆☆☆☆☆</label>
+
+                    <input type="radio" id="star4" name="rating" value="4" />
+                    <label for="star4" data-value="4">☆☆☆☆</label>
+
+                    <input type="radio" id="star3" name="rating" value="3" />
+                    <label for="star3" data-value="3">☆☆☆</label>
+
+                    <input type="radio" id="star2" name="rating" value="2" />
+                    <label for="star2" data-value="2">☆☆</label>
+
+                    <input type="radio" id="star1" name="rating" value="1" />
+                    <label for="star1" data-value="1">☆</label>
+                </div>
+                <br />
+
+                <!-- InstallDate-->
+                <label for="installDate">Date of Installation:</label><br>
+                <input type="date" id="installDate" name="installDate" required>
+                <br>
+
+                <!-- Useful Features -->
+                <label>Which features did you find useful in the product? (check all that apply):</label><br>
+                <input type="checkbox" id="feature1" name="features" value="Durability">
+                <label for="feature1">Durability</label><br>
+
+                <input type="checkbox" id="feature2" name="features" value="Ease of Use">
+                <label for="feature2">Ease of Use</label><br>
+
+                <input type="checkbox" id="feature3" name="features" value="Performance">
+                <label for="feature3">Performance</label><br>
+
+                <input type="checkbox" id="feature4" name="features" value="Design">
+                <label for="feature4">Design</label><br>
+                <br>
+
+                <!-- written review-->
+                <label for="writtenReview">Written Review:</label><br>
+                <textarea id="writtenReview" name="writtenReview" rows="4" cols="40" placeholder="Write your review here..."></textarea>
+                <br>
+
+                <!-- User Name -->
+                <label for="userName">Your Name:</label><br>
+                <input type="text" id="userName" name="userName">
+                <br>
+
+                <!-- submit-->
+                <input type="submit" value="Submit Review">
+            </form>
+        </div>
+    </main>
+    <footer class="footer_content">
+        <p>
+            ©️ <span id="currentyear"></span> 👑 Acheampong Kingsley 👑 Ghana
+        </p>
+        <br>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
