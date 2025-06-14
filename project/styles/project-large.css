@@ -482,3 +482,9 @@ body, p, .intro, .footer-brand p, .footer-contact p {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
+.last-visited {
+    background: #e0f7fa;
+    color: #00796b;
+    border-radius: 6px;
+}

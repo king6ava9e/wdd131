@@ -194,3 +194,18 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Save the current page to localStorage
+localStorage.setItem('lastVisited', window.location.pathname);
+
+// Get the last visited page from localStorage
+const lastVisited = localStorage.getItem('lastVisited');
+if (lastVisited && lastVisited !== window.location.pathname) {
+    // Example: highlight the nav link
+    const navLink = document.querySelector(`.main-nav a[href="${lastVisited}"]`);
+    if (navLink) {
+        navLink.classList.add('last-visited');
+    }
+    // Or show a message
+    // alert(`Welcome back! Last time you visited: ${lastVisited}`);
+}
