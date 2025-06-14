@@ -1,0 +1,262 @@
+@media (max-width: 480px) {
+    .footer_content {
+        padding: 1rem 0.5rem 0.5rem 0.5rem;
+        font-size: 0.95rem;
+    }
+    .footer-main {
+        gap: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    .footer-brand h2 {
+        font-size: 1.1rem;
+    }
+    .footer-brand p,
+    .footer-contact p {
+        font-size: 0.95rem;
+    }
+    .footer-nav h3,
+    .footer-contact h3 {
+        font-size: 1rem;
+    }
+    .footer-social img {
+        width: 22px;
+        height: 22px;
+    }
+    .footer-bottom {
+        font-size: 0.85rem;
+        margin-top: 1rem;
+    }
+}
+
+/* 2. Small Devices (larger phones, up to 600px) */
+@media (max-width: 600px) {
+    .footer_content {
+        padding: 1.2rem 0.7rem 0.7rem 0.7rem;
+        font-size: 1rem;
+    }
+    .footer-main {
+        gap: 1.2rem;
+    }
+    .footer-brand h2 {
+        font-size: 1.2rem;
+    }
+    .footer-social img {
+        width: 24px;
+        height: 24px;
+    }
+    .footer-bottom {
+        font-size: 0.9rem;
+    }
+}
+
+/* 3. Medium Devices (tablets, portrait, up to 768px) */
+@media (max-width: 768px) {
+    .footer_content {
+        padding: 1.5rem 1rem 1rem 1rem;
+        font-size: 1.05rem;
+    }
+    .footer-main {
+        gap: 1.5rem;
+    }
+    .footer-brand h2 {
+        font-size: 1.3rem;
+    }
+    .footer-social img {
+        width: 26px;
+        height: 26px;
+    }
+    .footer-bottom {
+        font-size: 0.93rem;
+    }
+}
+
+/* 4. Large Devices (tablets landscape / small laptops, up to 992px) */
+@media (max-width: 992px) {
+    .footer_content {
+        padding: 1.7rem 1.2rem 1.2rem 1.2rem;
+        font-size: 1.08rem;
+    }
+    .footer-main {
+        gap: 1.7rem;
+    }
+    .footer-brand h2 {
+        font-size: 1.4rem;
+    }
+    .footer-social img {
+        width: 27px;
+        height: 27px;
+    }
+    .footer-bottom {
+        font-size: 0.95rem;
+    }
+}
+
+/* 5. Extra Large Devices (desktops, up to 1200px) */
+@media (max-width: 1200px) {
+    .footer_content {
+        padding: 2rem 1.5rem 1.5rem 1.5rem;
+        font-size: 1.1rem;
+    }
+    .footer-main {
+        gap: 2rem;
+    }
+    .footer-brand h2 {
+        font-size: 1.5rem;
+    }
+    .footer-social img {
+        width: 28px;
+        height: 28px;
+    }
+    .footer-bottom {
+        font-size: 1rem;
+    }
+}
+
+/*  Ultra-Wide Screens */
+@media (min-width: 1400px) {
+    .footer_content {
+        max-width:100%;
+        margin: 0 auto;
+        padding: 2.5rem 2rem 2rem 2rem;
+        font-size: 1.15rem;
+    }
+    .footer-main {
+        max-width: 1300px;
+        margin: 0 auto;
+        gap: 2.5rem;
+    }
+    .footer-brand h2 {
+        font-size: 1.7rem;
+    }
+    .footer-social img {
+        width: 32px;
+        height: 32px;
+    }
+    .footer-bottom {
+        font-size: 1.05rem;
+    }
+}
+
+/* header */
+/* 1. Extra Small Devices (phones, less than 480px) */
+@media (max-width: 480px) {
+    header {
+        min-height: 54px;
+        padding: 0.4rem 0.7rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo-spin {
+        width: 38px;
+        height: 38px;
+    }
+    .header-nav {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-nav ul {
+        gap: 0.7rem;
+        font-size: 0.95rem;
+    }
+    .header-nav a {
+        font-size: 0.95rem;
+        padding: 0.3rem 0.5rem;
+    }
+}
+
+/* 2. Small Devices (larger phones, up to 600px) */
+@media (max-width: 600px) {
+    header {
+        min-height: 60px;
+        padding: 0.5rem 1rem;
+    }
+    .logo-spin {
+        width: 48px;
+        height: 48px;
+    }
+    .header-nav ul {
+        gap: 1rem;
+    }
+    .header-nav a {
+        font-size: 1rem;
+        padding: 0.35rem 0.7rem;
+    }
+}
+
+/* 3. Medium Devices (tablets, portrait, up to 768px) */
+@media (max-width: 768px) {
+    header {
+        min-height: 70px;
+        padding: 0.7rem 1.5rem;
+    }
+    .logo-spin {
+        width: 60px;
+        height: 60px;
+    }
+    .header-nav ul {
+        gap: 1.2rem;
+    }
+    .header-nav a {
+        font-size: 1.05rem;
+        padding: 0.4rem 0.8rem;
+    }
+}
+
+/* 4. Large Devices (tablets landscape / small laptops, up to 992px) */
+@media (max-width: 992px) {
+    header {
+        min-height: 75px;
+        padding: 0.8rem 2rem;
+    }
+    .logo-spin {
+        width: 80px;
+        height: 80px;
+    }
+    .header-nav ul {
+        gap: 1.5rem;
+    }
+    .header-nav a {
+        font-size: 1.1rem;
+        padding: 0.45rem 1rem;
+    }
+}
+
+/* 5. Extra Large Devices (desktops, up to 1200px) */
+@media (max-width: 1200px) {
+    header {
+        min-height: 80px;
+        padding: 1rem 2.5rem;
+    }
+    .logo-spin {
+        width: 95px;
+        height: 95px;
+    }
+    .header-nav ul {
+        gap: 1.7rem;
+    }
+    .header-nav a {
+        font-size: 1.15rem;
+        padding: 0.5rem 1.1rem;
+    }
+}
+
+/*  Ultra-Wide Screens */
+@media (min-width: 1400px) {
+    header {
+        min-height: 110px;
+        padding: 1.5rem 6vw 1.5rem 6vw;
+    }
+    .logo-spin {
+        width: 140px;
+        height: 140px;
+    }
+    .header-nav ul {
+        gap: 2.5rem;
+    }
+    .header-nav a {
+        font-size: 1.4rem;
+        padding: 0.7rem 1.5rem;
+    }
+}

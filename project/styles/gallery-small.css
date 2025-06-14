@@ -1,0 +1,138 @@
+@media (max-width: 480px) {
+    .footer_content {
+        padding: 1rem 0.5rem 0.5rem 0.5rem;
+        font-size: 0.95rem;
+    }
+    .footer-main {
+        gap: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    .footer-brand h2 {
+        font-size: 1.1rem;
+    }
+    .footer-brand p,
+    .footer-contact p {
+        font-size: 0.95rem;
+    }
+    .footer-nav h3,
+    .footer-contact h3 {
+        font-size: 1rem;
+    }
+    .footer-social img {
+        width: 22px;
+        height: 22px;
+    }
+    .footer-bottom {
+        font-size: 0.85rem;
+        margin-top: 1rem;
+    }
+}
+
+/* 2. Small Devices (larger phones, up to 600px) */
+@media (max-width: 600px) {
+    .footer_content {
+        padding: 1.2rem 0.7rem 0.7rem 0.7rem;
+        font-size: 1rem;
+    }
+    .footer-main {
+        gap: 1.2rem;
+    }
+    .footer-brand h2 {
+        font-size: 1.2rem;
+    }
+    .footer-social img {
+        width: 24px;
+        height: 24px;
+    }
+    .footer-bottom {
+        font-size: 0.9rem;
+    }
+}
+
+/* 3. Medium Devices (tablets, portrait, up to 768px) */
+@media (max-width: 768px) {
+    .footer_content {
+        padding: 1.5rem 1rem 1rem 1rem;
+        font-size: 1.05rem;
+    }
+    .footer-main {
+        gap: 1.5rem;
+    }
+    .footer-brand h2 {
+        font-size: 1.3rem;
+    }
+    .footer-social img {
+        width: 26px;
+        height: 26px;
+    }
+    .footer-bottom {
+        font-size: 0.93rem;
+    }
+}
+
+/* 4. Large Devices (tablets landscape / small laptops, up to 992px) */
+@media (max-width: 992px) {
+    .footer_content {
+        padding: 1.7rem 1.2rem 1.2rem 1.2rem;
+        font-size: 1.08rem;
+    }
+    .footer-main {
+        gap: 1.7rem;
+    }
+    .footer-brand h2 {
+        font-size: 1.4rem;
+    }
+    .footer-social img {
+        width: 27px;
+        height: 27px;
+    }
+    .footer-bottom {
+        font-size: 0.95rem;
+    }
+}
+
+/* 5. Extra Large Devices (desktops, up to 1200px) */
+@media (max-width: 1200px) {
+    .footer_content {
+        padding: 2rem 1.5rem 1.5rem 1.5rem;
+        font-size: 1.1rem;
+    }
+    .footer-main {
+        gap: 2rem;
+    }
+    .footer-brand h2 {
+        font-size: 1.5rem;
+    }
+    .footer-social img {
+        width: 28px;
+        height: 28px;
+    }
+    .footer-bottom {
+        font-size: 1rem;
+    }
+}
+
+/*  Ultra-Wide Screens */
+@media (min-width: 1400px) {
+    .footer_content {
+        max-width:100%;
+        margin: 0 auto;
+        padding: 2.5rem 2rem 2rem 2rem;
+        font-size: 1.15rem;
+    }
+    .footer-main {
+        max-width: 1300px;
+        margin: 0 auto;
+        gap: 2.5rem;
+    }
+    .footer-brand h2 {
+        font-size: 1.7rem;
+    }
+    .footer-social img {
+        width: 32px;
+        height: 32px;
+    }
+    .footer-bottom {
+        font-size: 1.05rem;
+    }
+}

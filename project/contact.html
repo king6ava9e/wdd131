@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+      <!--project author -->
+    <meta name="author" content="Acheampong Kingsley">
+
+    <!--project description -->
+    <meta name="description" content="Boateng Fred is a skilled and passionate building contractor in Ghana, specializing in residential and commercial construction, interior design, painting, POP, plumbing, and more. Reliable, experienced, and results-driven.">
+
+    <!--project keywords -->
+    <meta name="keywords" content="building contractor, residential construction, commercial construction, renovations, site planning, construction services">
+
+    <!-- project fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Boateng Fred Constructions - Painting, POP, Plumbing & More</title>
+
+    <!--scripts and css-->
+   
+    <!--scripts and css-->
+    <link rel="stylesheet" href="styles/project-large.css">
+    <link rel="stylesheet" href="styles/project-small.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/gallery-small.css">
+    <script src="scripts/project.js" defer></script>
+    
+ 
+</head>
+<body>
+    
+   
+    <main>
+
+        <!--maybe video section will go here or any background-->
+        <section class="hero">
+            <video autoplay muted loop playsinline class="hero-bg">
+                <source src="videos/website_background.webm" type="video/mp4">
+                <!-- Fallback image or GIF -->
+                <img src="videos/gif.webp" alt="Construction in action">
+
+                
+            </video>
+            <header>
+                 <button class="menu-toggle" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+                
+        
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="activee">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about-contact.html">About & Contact</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+            <div class="hero-content">
+                <h1>Boateng Fred Constructions</h1>
+                <img src="images/image_icon_fred.jpg" alt="company logo">
+                <p class="tagline">Building Dreams into Reality</p>
+                <p class="intro">
+                    Dedicated to quality, integrity, and client satisfaction. We turn your vision into lasting structures with expert craftsmanship and a passion for excellence.
+                </p>
+                <a href="gallery.html" class="cta-btn">View Projects</a>
+                <a href="contact.html" class="cta-btn secondary">Get a Quote</a>
+            </div>
+        </section>
+   
+ <!-- About Section -->
+    <section class="about-section">
+        <div class="about-content">
+            <div class="about-photo">
+                <img src="images/fred_work_gear.jpg" alt="Boateng Fred in work gear">
+            </div>
+            <div class="about-text">
+                <h2>About Boateng Fred</h2>
+                <p>
+                    <strong>Boateng Fred</strong> is a dedicated building contractor with over <strong>15 years of experience</strong> in residential and commercial construction across Ghana. Known for his integrity, attention to detail, and commitment to client satisfaction, Fred has completed more than <strong>120 successful projects</strong>—from modern homes to large commercial spaces.
+                </p>
+                <p>
+                    Fred’s work ethic is rooted in strong family values and a passion for helping others realize their dreams. He is recognized for his reliability, creative solutions, and the personal care he brings to every project.
+                </p>
+                <ul class="about-highlights">
+                    <li><strong>15+ years</strong> of experience</li>
+                    <li><strong>120+ projects</strong> completed</li>
+                    <li><strong>Specializes in:</strong> Construction, Painting, POP, Pools, Plumbing, Interior Design</li>
+                    <li><strong>Unique for:</strong> Quality, honesty, and client-first approach</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+        <section class="contact-section">
+            <h2>Contact & Get a Quote</h2>
+            <div class="contact-flex">
+                <form class="contact-form" action="#" method="post" autocomplete="on">
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone*</label>
+                    <input type="tel" id="phone" name="phone" required pattern="[0-9+\s\-]{7,}">
+
+                    <label for="service">Service Type*</label>
+                    <select id="service" name="service" required>
+                        <option value="">--Select Service--</option>
+                        <option value="construction">Construction</option>
+                        <option value="painting">Painting</option>
+                        <option value="pop">POP</option>
+                        <option value="plumbing">Plumbing</option>
+                        <option value="interior">Interior Design</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                     <label for="message">Message*</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit" class="cta-btn">Send Message</button>
+                    <button type="button" class="cta-btn secondary" onclick="window.location.href='tel:+233241920385'">Request a Call Back</button>
+                </form>
+                <div class="contact-details">
+                    <h3>Contact Info</h3>
+                    <p>
+                        <strong>Phone:</strong> <a href="tel:+233241920385">+233 24 192 0385</a><br>
+                        <strong>Email:</strong> <a href="mailto:fredboateng@email.com">boatengfred27@email.com</a><br>
+                        <strong>WhatsApp:</strong> <a href="https://wa.me/233241920385" target="_blank">Chat on WhatsApp</a><br>
+                        <strong>Location:</strong> Kumasi, Ghana
+                    </p>
+                    <div class="contact-social">
+                        <a href="https://facebook.com/" target="_blank" aria-label="Facebook"><img src="images/1_Facebook_colored_svg_copy-64.webp" alt="Facebook" /></a>
+                        <a href="https://instagram.com/" target="_blank" aria-label="Instagram"><img src="images/instagram_logo.webp" alt="Instagram" /></a>
+                        <a href="https://wa.me/233241920385" target="_blank" aria-label="WhatsApp"><img src="images/2018_social_media_popular_app_logo-whatsapp-64.webp" alt="WhatsApp" /></a>
+                    </div>
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps?q=Kumasi,+Ghana&output=embed" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" title="Kumasi, Ghana"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+</main>
+<footer class="footer_content">
+    <div class="footer-main">
+        <div class="footer-brand">
+            <h2>Boateng Fred Constructions</h2>
+            <p>Building Dreams into Reality in Ghana.<br>
+            Residential & Commercial Construction | Painting | POP | Plumbing | More</p>
+        </div>
+        <nav class="footer-nav">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about-contact.html">About & Contact</a></li>
+            </ul>
+        </nav>
+        <div class="footer-contact">
+            <h3>Contact</h3>
+            <p>
+                Phone: <a href="tel:+233XXXXXXXXX">+233 24 192 0385</a><br>
+                Email: <a href="mailto:fredboateng@email.com">boatengfred27@email.com</a><br>
+                Location: Kumasi, Ghana
+            </p>
+            <div class="footer-social">
+                <a href="https://facebook.com/" target="_blank" aria-label="Facebook"><img src="images/1_Facebook_colored_svg_copy-64.webp" alt="Facebook" /></a>
+                <a href="https://instagram.com/" target="_blank" aria-label="Instagram"><img src="images/instagram_logo.webp" alt="Instagram" /></a>
+                <a href="https://wa.me/233XXXXXXXXX" target="_blank" aria-label="WhatsApp"><img src="images/2018_social_media_popular_app_logo-whatsapp-64.webp" alt="WhatsApp" /></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>
+            ©️ <span id="currentyear"></span> 👑 Acheampong Kingsley 👑 Ghana &mdash; All rights reserved.
+        </p>
+        <p id="lastModified"></p>
+    </div>
+</footer>
+    
+</body>
+</html>
