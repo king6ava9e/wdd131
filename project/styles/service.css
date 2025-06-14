@@ -1,0 +1,103 @@
+/* Service Cards Grid */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    margin: 2.5rem 0;
+    justify-items: center;
+}
+
+.service-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,121,107,0.10), 0 1.5px 8px rgba(0,0,0,0.04);
+    padding: 2rem 1.2rem 1.5rem 1.2rem;
+    max-width: 320px;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.18s, box-shadow 0.18s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.service-card:hover {
+    transform: translateY(-8px) scale(1.035);
+    box-shadow: 0 12px 36px rgba(0,121,107,0.14), 0 2px 12px rgba(0,0,0,0.06);
+    background: #e0f7fa;
+}
+
+.service-card img {
+    width: 150px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 14px;
+    margin-bottom: 1.1rem;
+    box-shadow: 0 2px 12px rgba(0,121,107,0.08);
+    background: #f9fefd;
+}
+
+.service-card h2 {
+    font-size: 1.18rem;
+    color: #004d40;
+    margin-bottom: 0.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.service-card p {
+    font-size: 1.03rem;
+    color: #444;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+    .service-card {
+        max-width: 95vw;
+        min-width: 0;
+        padding: 1.2rem 0.5rem 1rem 0.5rem;
+    }
+}
+
+/* Services Section Title and Intro */
+.services-section h1 {
+    font-size: 2.3rem;
+    color: #00796b;
+    margin-bottom: 1.1rem;
+    letter-spacing: 1.2px;
+    font-family: 'Montserrat', 'Playfair Display', serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.services-intro {
+    font-size: 1.18rem;
+    color: #444;
+    margin: 0 auto 2.2rem auto;
+    max-width: 600px;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    background: #e0f7fa;
+    border-radius: 12px;
+    padding: 1.1rem 1.2rem;
+    box-shadow: 0 2px 12px rgba(0,121,107,0.06);
+}
+
+.services-title {
+    font-size: 2.3rem;
+    color: #00796b;
+    margin-bottom: 1.1rem;
+    letter-spacing: 1.2px;
+    font-family: 'Montserrat', 'Playfair Display', serif;
+    font-weight: 700;
+    text-align: center;
+}
