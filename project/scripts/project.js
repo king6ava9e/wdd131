@@ -157,11 +157,8 @@ document.addEventListener('DOMContentLoaded', function() {
     if (galleryGrid) {
         galleryGrid.innerHTML = galleryImages.map(img => `
             <div class="gallery-card">
-                <picture>
-                    <source srcset="${img.src}" media="(min-width: 900px)">
-                    <source srcset="${img.srcMedium}" media="(min-width: 600px)">
-                    <img src="${img.srcSmall}" alt="${img.alt}">
-                </picture>
+                <img src="${img.src}" alt="${img.alt}">
+<div class="gallery-caption">${img.caption}</div>
                 <div class="gallery-caption">${img.caption}</div>
             </div>
         `).join('');
